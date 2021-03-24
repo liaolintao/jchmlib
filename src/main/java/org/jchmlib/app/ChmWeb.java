@@ -4,6 +4,15 @@
 
 package org.jchmlib.app;
 
+import org.jchmlib.ChmCollectFilesEnumerator;
+import org.jchmlib.ChmFile;
+import org.jchmlib.ChmIndexSearcher;
+import org.jchmlib.ChmSearchEnumerator;
+import org.jchmlib.ChmTopicsTree;
+import org.jchmlib.ChmUnitInfo;
+import org.jchmlib.app.net.HttpRequest;
+import org.jchmlib.app.net.HttpResponse;
+
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
@@ -18,14 +27,6 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.logging.Logger;
-import org.jchmlib.ChmCollectFilesEnumerator;
-import org.jchmlib.ChmFile;
-import org.jchmlib.ChmIndexSearcher;
-import org.jchmlib.ChmSearchEnumerator;
-import org.jchmlib.ChmTopicsTree;
-import org.jchmlib.ChmUnitInfo;
-import org.jchmlib.app.net.HttpRequest;
-import org.jchmlib.app.net.HttpResponse;
 
 /**
  * A simple web server.
